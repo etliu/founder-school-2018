@@ -1,4 +1,4 @@
-# UCLA Founder's School 2017
+# UCLA Founder's School 2018
 
 > Theme: **Exploration**
 
