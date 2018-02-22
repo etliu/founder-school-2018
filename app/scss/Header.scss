@@ -22,7 +22,7 @@
     	right: 0;
     	bottom: 0;
     	left: 0;
-      background-image: linear-gradient(to bottom right,#3e3e4b,#000000);
+      background-image: linear-gradient(to bottom right,#ffffff,#ffffff);
     	opacity: .9;
     }
 
@@ -68,7 +68,7 @@
           top: 50%;
           transform: translateY(-50%);
           padding-left: 60px;
-          color: white;
+          color: 3e3e4b;
 
           .anime-group {
             opacity: 0;
@@ -99,26 +99,26 @@
           p {
             font-size: 1.4em;
             margin-bottom: 40px;
-            font-family: 'Montserrat', sans-serif;
-            font-weight: 300;
+            font-family: 'Work Sans', sans-serif;
+            font-weight: 400;
           }
 
           h3 {
-            color: #ffea3d;
+            color: #309cab;
             opacity: 0.8;
             font-size: 1.8em;
             margin-bottom: 15px;
           }
 
           button {
-            border: 1px solid white;
+            border: 1px solid #3e3e4b;
             background: transparent;
             width: 320px;
             height: 40px;
             font-size: 1.1em;
             text-transform: uppercase;
             font-weight: 500;
-            color: white;
+            color: #3e3e4b;
             padding: 7px 15px;
 
             margin-right: 10px;
@@ -126,8 +126,8 @@
 
             &:hover {
               cursor: pointer;
-              background: white;
-              color: $blue;
+              background: #3e3e4b;
+              color: white;
               border: none;
             }
           }
@@ -177,7 +177,7 @@
             display: inline-block;
             margin: 0 10px;
             font-size: 0.8em;
-            font-family: 'Montserrat', sans-serif;
+            font-family: 'Work Sans', sans-serif;
             font-weight: 400;
             letter-spacing: 2px;
             text-transform: uppercase;
@@ -225,7 +225,7 @@
             }
 
             button {
-              width: 75px;
+              width: 350px;
               height: 25px;
               font-size: 0.6em;
             }

@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400|Roboto:300,400|Montserrat:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Karla:400,700|Work+Sans:400,600);
 
 
 $blue: rgb(55, 70, 103);
@@ -6,8 +6,8 @@ $bgcolor: #EFEFEF;
 $FSBlue: #0D7FA6;
 $FSRed: #C44C60;
 $FSYellow: #FFFF00;
-$sitefont: 'Open Sans', sans-serif;
-$header-font: 'Montserrat', sans-serif;
+$sitefont: 'Work Sans', sans-serif;
+$header-font: 'Karla', sans-serif;
 $smallPhone: "only screen and (max-width: 320px)";
 $phone: "only screen and (min-width: 321px) and (max-width : 450px)";
 $allPhones: "only screen and (max-width: 550px)";
@@ -55,7 +55,7 @@ div.header-title {
   font-family: $header-font;
   color: $blue;
   font-size: 35px;
-  font-weight: bold;
+  font-weight: 700;
   text-align: center;
   margin: 0 auto;
   height:40px;
