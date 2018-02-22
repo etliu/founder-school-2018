@@ -135,8 +135,6 @@ class HeaderWrapper extends React.Component {
        {/* <header className="header-wrapper"> */}
         {/* <Navbar /> */}
         <Title />
-        <header className="header-wrapper-2">
-      </header>
       </header>
     )
   }
