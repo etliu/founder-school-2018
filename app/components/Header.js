@@ -87,7 +87,7 @@ class Logo extends React.Component {
         offset: '-=400'
       })
       .add({
-        targets: ['g#FOUNDERS', 'g#Logomark', 'g#SCHOOL'],
+        targets: ['g#Logomark', 'g#FOUNDERS', 'g#SCHOOL'],
         translateX: [ -265, 0 ],
         translateY: [30, 0],
         opacity: [0, 1],
