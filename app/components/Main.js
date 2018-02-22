@@ -16,13 +16,13 @@ export default class Main extends Component {
     return (
       <div className=''>
         <Header />
-        <About />
+        {/* <About />
         <SpeakerGrid />
         <Schedule />
         <Faq />
         <Sponsors />
         <Carousel />
-        <Footer />
+        <Footer /> */}
       </div>
     )
   }
