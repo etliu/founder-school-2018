@@ -6,14 +6,11 @@
 
   .header-wrapper {
     opacity: 0;
-    background: #3e3e4b;
+    background: #ffffff;
     width: 100%;
     height: 100vh;
     background-size: cover;
     background-attachment: fixed !important;
-
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0 97%);
-    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 97%) !important;
 
     &:before {
       content: '';
@@ -22,12 +19,10 @@
     	right: 0;
     	bottom: 0;
     	left: 0;
-      background-image: linear-gradient(to bottom right,#ffffff,#ffffff);
-    	opacity: .9;
     }
 
     .title-wrapper {
-      width: 50%;
+      width: 70%;
       height: 100%;
       margin: 0 auto;
 
@@ -35,19 +30,17 @@
         width: 80%;
       }
 
-      display: flex;
-      display: -webkit-flex;
-      display: -ms-flexbox;
-
       justify-content: space-around;
       .logo {
+        margin: 0 auto;
         z-index: 10;
         height: 100%;
-        width: 261px;
+        width: 70%;
+        transform: translateY(-30%);
 
         svg {
           position: relative;
-          top: 50%;
+          top: 60%;
           transform: translateY(-50%);
 
           g#logo > g {
@@ -59,16 +52,39 @@
       }
 
       .description-wrapper {
-        width: calc(100% - 261px);
-        height: 100%;
+        width: 100%;
+        height: 50%;
 
+        position: relative;
+        top: -50%;
+        margin: 0 auto;
+        text-align: center;
 
         .description {
           position: relative;
-          top: 50%;
-          transform: translateY(-50%);
-          padding-left: 60px;
+          top: 10%;
           color: 3e3e4b;
+
+          #upper-bracket {
+            height: 2em;
+            width: 36em;
+            margin: 0 auto;
+            border-top: 3px solid black;
+            border-right: 3px solid black;
+            border-left: 3px solid black;
+            border-bottom: 0px;
+          }
+
+
+          #lower-bracket {
+            height: 2em;
+            width: 36em;
+            margin: 0 auto;
+            border-top: 0px;
+            border-right: 3px solid black;
+            border-left: 3px solid black;
+            border-bottom: 3px solid black;
+          }
 
           .anime-group {
             opacity: 0;
@@ -83,22 +99,16 @@
           }
 
           h1 {
-            font-size: 2em;
+            font-size: 1.5em;
             text-transform: uppercase;
             letter-spacing: 2px;
             margin-bottom: 10px;
             line-height: 40px;
-
-            span {
-              background: #ffea3d;
-              padding: 0 4px;
-              color: $blue;
-            }
           }
 
           p {
-            font-size: 1.4em;
-            margin-bottom: 40px;
+            font-size: 1.5em;
+            margin-bottom: 20px;
             font-family: 'Work Sans', sans-serif;
             font-weight: 400;
           }
@@ -110,25 +120,51 @@
             margin-bottom: 15px;
           }
 
-          button {
-            border: 1px solid #3e3e4b;
-            background: transparent;
-            width: 320px;
-            height: 40px;
-            font-size: 1.1em;
-            text-transform: uppercase;
-            font-weight: 500;
-            color: #3e3e4b;
-            padding: 7px 15px;
+          form {
+            margin: 0 auto;
+            margin-bottom: 25px;
+            width: 40%;
+            position: relative;
+            overflow: hidden;
 
-            margin-right: 10px;
-            @include prefix(transition, all 350ms ease-in-out);
+            input[type="text"] {
+              font-family: 'Work Sans', sans-serif;
+              width: 100%;
+              height: 30px;
+              padding: 10px 10px 10px 10px;
+              box-sizing: border-box;
+              border: 1px solid gray;
+              color: gray;
+              transition: all 0.3s cubic-bezier(1, .1, 0, 0.9);
+              text-align: left;
+              font-size: 1.2em;
+              border-radius: 3px;
+            }
 
-            &:hover {
-              cursor: pointer;
-              background: #3e3e4b;
-              color: white;
-              border: none;
+            input[type="text"] + button{
+              border: 1px solid gray;
+              position: absolute;
+              top: 0;
+              bottom: 0;
+              right: 0;
+              height: 30px;
+              line-height: 30px;
+              font-size: 1.2em;
+              font-weight: semibold;
+              width: 80px;
+              font-family: 'Work Sans', sans-serif;
+              text-shadow: 0 0 2px rgba(0,0,0,0.1);
+              text-align: center;
+              text-transform: uppercase;
+              letter-spacing: .05em;
+              background: #ffea3d;
+              border-radius: 3px 0 0 3px;
+              transition: all 0.3s cubic-bezier(1, .1, 0, 0.9);;
+              transform: translateZ(0) translateX(0);
+              border-radius: 3px;
+            }
+            button:hover {
+              background: #F2DD2C !important;
             }
           }
         }
@@ -191,16 +227,14 @@
   }
 }
 
-@media #{$iPadAndSmaller} {
+@media (max-width: 1300px) {
   #app {
 
     .header-wrapper {
       .title-wrapper {
-        .logo {
-          svg {
-            width: 210px;
-          }
 
+        .logo {
+          width: 80%
         }
 
         .description-wrapper {
@@ -209,6 +243,17 @@
 
 
           .description {
+            #upper-bracket {
+              width: 24em;
+              height: 1.5em;  
+              margin-bottom: 25px;
+            }
+
+            #lower-bracket {
+              width: 24em;
+              height: 1.5em;
+            }
+
             h1 {
               font-size: 1.6em;
               margin-bottom: 6px;
@@ -216,7 +261,7 @@
             }
 
             p {
-              font-size: 1em;
+              font-size: 1.3em;
               margin-bottom: 20px;
             }
 
@@ -224,11 +269,10 @@
               font-size: 1.2em;
             }
 
-            button {
-              width: 350px;
-              height: 25px;
-              font-size: 0.6em;
+            form {
+              width: 60%;
             }
+
           }
 
         }
@@ -261,6 +305,7 @@
           height: 70%;
           margin-bottom: -4em;
           svg {
+            top: 80%;
             width: 80%;
             display: block;
             margin: 0 auto;
@@ -269,15 +314,39 @@
         }
 
         .description-wrapper {
-          font-size: 0.8em;
+          margin-top: 24px;
+          top: 0%;
+          font-size: 0.7em;
           text-align: center;
-          height: 25%;
+          height: 50%;
 
           .description {
             padding-left: 0px;
 
+            p {
+              margin: 10px auto;
+              width: 90%;
+              font-size: 1.29em;
+            }
+
             h1 {
+              font-size: 1.3em;
               line-height: 24px;
+            }
+
+            form {
+              width: 80%;
+            }
+            input[type="text"] + button{
+              font-size: 10px;
+            }
+
+            #upper-bracket {
+              width: 70%;
+            }
+
+            #lower-bracket {
+              width: 70%;
             }
           }
 
