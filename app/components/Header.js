@@ -179,7 +179,7 @@ class Description extends React.Component {
       //frontend stuffs
       button.innerHTML = '\u2713';
       button.disabled = true;
-      inputfield.style.backgroundColor = "#03CEA4";
+      inputfield.style.backgroundColor = "#D3D3D3";
       inputfield.value = "Thanks! We'll be in touch."
       inputfield.disabled = true;
 
