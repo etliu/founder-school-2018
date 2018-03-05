@@ -151,7 +151,7 @@
               line-height: 30px;
               font-size: 1.2em;
               font-weight: semibold;
-              width: 80px;
+              width: 100px;
               font-family: 'Work Sans', sans-serif;
               text-shadow: 0 0 2px rgba(0,0,0,0.1);
               text-align: center;
@@ -339,6 +339,7 @@
             }
             input[type="text"] + button{
               font-size: 10px;
+              width: 80px;
             }
 
             #upper-bracket {
