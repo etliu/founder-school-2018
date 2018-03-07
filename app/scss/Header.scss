@@ -300,7 +300,8 @@
 
     .header-wrapper {
       .title-wrapper {
-        height: 80%;
+        margin-top: 48px;
+        height: 500px;
         width: 90%;
         flex-wrap: wrap;
         .logo {
@@ -316,11 +317,9 @@
         }
 
         .description-wrapper {
-          margin-top: 24px;
-          top: 0%;
+          top: 50px;
           font-size: 0.7em;
           text-align: center;
-          height: 50%;
 
           .description {
             padding-left: 0px;
