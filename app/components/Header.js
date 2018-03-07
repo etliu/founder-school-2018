@@ -58,7 +58,7 @@ class LogoSVG extends React.Component {
     }
     else{
       return (
-        <svg width="100%" height="50%" viewBox="0 0 1429 425" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+        <svg width="100%" height="425px" viewBox="0 0 1429 425" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
           <title>Logo</title>
           <desc>Created using Figma</desc>
           <g id="Canvas" transform="translate(-6112 1304)">

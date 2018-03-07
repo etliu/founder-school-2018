@@ -33,15 +33,13 @@
       justify-content: space-around;
       .logo {
         margin: 0 auto;
+        margin-top: calc(50% - 375px);
         z-index: 10;
         height: 100%;
         width: 70%;
-        transform: translateY(-30%);
 
         svg {
           position: relative;
-          top: 60%;
-          transform: translateY(-50%);
 
           g#logo > g {
             opacity: 0;
@@ -229,11 +227,12 @@
   }
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1400px) {
   #app {
 
     .header-wrapper {
       .title-wrapper {
+        height: 750px;
 
         .logo {
           width: 80%
@@ -241,8 +240,6 @@
 
         .description-wrapper {
           width: 100%;
-          // height: 40%;
-
 
           .description {
             #upper-bracket {
@@ -272,7 +269,7 @@
             }
 
             form {
-              width: 60%;
+              width: 65%;
             }
 
           }
@@ -300,16 +297,16 @@
 
     .header-wrapper {
       .title-wrapper {
-        margin-top: 48px;
-        height: 500px;
+        //margin-top: 48px;
+        height: 100vh;
         width: 90%;
         flex-wrap: wrap;
         .logo {
-          height: 70%;
+          height: 300px;
           margin-bottom: -4em;
           svg {
             top: 80%;
-            width: 80%;
+            width: 90%;
             display: block;
             margin: 0 auto;
           }
@@ -317,16 +314,18 @@
         }
 
         .description-wrapper {
-          top: 50px;
+          width: 100%;
+          top: 300px;
           font-size: 0.7em;
           text-align: center;
 
           .description {
+            width: 100%;
             padding-left: 0px;
 
             p {
               margin: 10px auto;
-              width: 90%;
+              width: 100%;
               font-size: 1.29em;
             }
 
