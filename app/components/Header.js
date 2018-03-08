@@ -151,6 +151,7 @@ class Description extends React.Component {
       button.innerHTML = '\u2713';
       button.disabled = true;
       inputfield.style.backgroundColor = "#F0F0F0";
+      inputfield.style.border = "1px solid #F0F0F0"
       inputfield.value = "Thanks! We'll be in touch."
       inputfield.disabled = true;
 
@@ -168,8 +169,9 @@ class Description extends React.Component {
         console.log(error);
       });
     } else {
-      inputfield.placeholder = "Please enter a valid email";
       inputfield.style.backgroundColor = "#FFCCCC";
+      inputfield.style.border = "1px solid #FFCCCC"
+      inputfield.placeholder = "Please enter a valid email";
       inputfield.value = '';
     }
 
