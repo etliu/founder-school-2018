@@ -211,12 +211,12 @@
 
 @media (max-width: 1400px) {
   #app {
-
     .header-wrapper {
-      height: 750px;
+      background-size: cover;
+      height: 100vh;
       overflow: hidden;
       &:before {
-        height: 750px;
+        height: 100vh;
       }
       .title-wrapper {
         height: 750px;
