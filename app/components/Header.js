@@ -122,7 +122,7 @@ class Logo extends React.Component {
 class HeaderWrapper extends React.Component {
   render() {
     return (
-       <header className="header-wrapper" style={{backgroundImage: 'url(\'./assets/signup_backdrop.jpg\')'}}>
+       <header className="header-wrapper" style={{backgroundImage: 'url(\'./assets/signup_backdrop.png\')'}}>
         <Title />
       </header>
     )

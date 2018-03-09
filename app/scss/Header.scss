@@ -16,17 +16,6 @@
     overflow: hidden;
     z-index: -5;
 
-    &:before {
-      content: '';
-    	position: absolute;
-    	top: 0;
-    	right: 0;
-    	bottom: 0;
-      left: 0;
-      background: #ffffff;
-      opacity: 0.8;
-    }
-
     .title-wrapper {
       width: 70%;
       height: 100%;
@@ -215,9 +204,6 @@
       background-size: cover;
       height: 100vh;
       overflow: hidden;
-      &:before {
-        height: 100vh;
-      }
       .title-wrapper {
         height: 750px;
         margin: auto;
@@ -284,7 +270,7 @@
 
     .header-wrapper {
       background-size: cover;
-      background-position: -500px;
+      background-position: -400px;
       .title-wrapper {
         //margin-top: 48px;
         height: 100vh;
