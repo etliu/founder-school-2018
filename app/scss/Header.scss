@@ -9,16 +9,12 @@
     background: #ffffff;
     width: 100%;
     height: 100vh;
-
-    #backdrop {
-      height: 100vh;
-      background-size: cover;
-      background-attachment: fixed !important;
-      background-position: center;
-      background-repeat: no-repeat;
-      overflow: hidden;
-      z-index: -5;
-    }
+    background-size: 100% auto;
+    background-attachment: fixed !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    z-index: -5;
 
     &:before {
       content: '';
@@ -287,6 +283,8 @@
   #app {
 
     .header-wrapper {
+      background-size: cover;
+      background-position: -500px;
       .title-wrapper {
         //margin-top: 48px;
         height: 100vh;
