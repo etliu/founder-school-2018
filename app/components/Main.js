@@ -16,6 +16,13 @@ export default class Main extends Component {
     return (
       <div className=''>
         <Header />
+        <About />
+        <SpeakerGrid />
+        <Schedule />
+        <Faq />
+        <Sponsors />
+        <Carousel />
+        <Footer />
       </div>
     )
   }
