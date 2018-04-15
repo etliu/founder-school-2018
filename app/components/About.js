@@ -34,7 +34,7 @@ export default Watch(class About extends Component {
               <div id="when-title"><span>When</span><br /><br /></div>
               <span class="about-location-content">
                 <p>Sunday 9AM - 5PM</p>
-                <p>May 7th, 2017</p><br />
+                <p>May 12th, 2017</p><br />
               </span>
             </div>
           </div>
