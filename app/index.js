@@ -2,17 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Route, Router, IndexRoute, hashHistory } from 'react-router';
 import Main from './components/Main';
+import MainOld from './components/MainOld';
 
 ReactDOM.render(
   <Router history={hashHistory}>
-    <Route path='/' component={Main}>
-    </Route>
+  <div>
+    <Route exact path='/' component={Main}/>
+    <Route path='/2017' component={MainOld}/>
+    </div>
   </Router>
-  , document.getElementById('app'));
-  
-  ReactDOM.render(
-    <Router basename={'https://github.com/shampliu/founders-school'}>
-      <Route path={`${process.env.PUBLIC_URL}/`} component={Main}>
-      </Route>
-    </Router>
   , document.getElementById('app'));

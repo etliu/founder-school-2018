@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "\"\"",
   "main": "index.js",
-  "homepage": "https://github.com/shampliu/founders-school",
+  "homepage": "https://etliu.github.io/founder-school-2018/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server",
