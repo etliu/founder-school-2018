@@ -1,0 +1,303 @@
+@import "common";
+
+#app {
+  width: 100%;
+  height: 100%;
+
+  .header-wrapper {
+    opacity: 0;
+    background: red;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed !important;
+
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0 97%);
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 97%) !important;
+
+    &:before {
+      content: '';
+    	position: absolute;
+    	top: 0;
+    	right: 0;
+    	bottom: 0;
+    	left: 0;
+    	background-image: linear-gradient(to bottom right,#24648a,#152641);
+    	opacity: .9;
+    }
+
+    .title-wrapper {
+      width: 50%;
+      height: 100%;
+      margin: 0 auto;
+
+      @media (max-width: 1200px) {
+        width: 80%;
+      }
+
+      display: flex;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+
+      justify-content: space-around;
+      .logo {
+        z-index: 10;
+        height: 100%;
+        width: 261px;
+
+        svg {
+          position: relative;
+          top: 50%;
+          transform: translateY(-50%);
+
+          g#logo > g {
+            opacity: 0;
+
+          }
+        }
+
+      }
+
+      .description-wrapper {
+        width: calc(100% - 261px);
+        height: 100%;
+
+
+        .description {
+          position: relative;
+          top: 50%;
+          transform: translateY(-50%);
+          padding-left: 60px;
+          color: white;
+
+          .anime-group {
+            opacity: 0;
+          }
+
+          a {
+            text-decoration: none;
+
+            &:link, &:visited {
+              color: $blue;
+            }
+          }
+
+          h1 {
+            font-size: 2em;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+            line-height: 40px;
+
+            span {
+              background: yellow;
+              padding: 0 4px;
+              color: $blue;
+            }
+          }
+
+          p {
+            font-size: 1.4em;
+            margin-bottom: 40px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 300;
+          }
+
+          h3 {
+            color: yellow;
+            opacity: 0.8;
+            font-size: 1.8em;
+            margin-bottom: 15px;
+          }
+
+          button {
+            border: 1px solid white;
+            background: transparent;
+            width: 125px;
+            height: 40px;
+            font-size: 1.1em;
+            text-transform: uppercase;
+            font-weight: 500;
+            color: white;
+            padding: 7px 15px;
+
+            margin-right: 10px;
+            @include prefix(transition, all 350ms ease-in-out);
+
+            &:hover {
+              cursor: pointer;
+              background: white;
+              color: $blue;
+              border: none;
+            }
+          }
+        }
+
+      }
+    }
+
+    .nav {
+      opacity: 0;
+      width: 100%;
+      height: 75px;
+      display: block;
+      position: absolute;
+      top: 0;
+      z-index: 11;
+
+      .nav-inner {
+        width: 80%;
+        margin: 0 auto;
+        height: 100%;
+        padding: 14px 0;
+        display: flex;
+        justify-content: space-around;
+
+        @media (max-width: 500px) {
+          ul.nav-links {
+            a {
+              font-size: 0.5em;
+              margin: 0 4px;
+              letter-spacing: 0.8px;
+            }
+          }
+
+        }
+
+        ul.nav-links {
+          height: 50px;
+          line-height: 50px;
+          // text-transform: uppercase;
+
+          li:hover {
+            opacity: 0.8;
+          }
+          a {
+            color: white;
+            display: inline-block;
+            margin: 0 10px;
+            font-size: 0.8em;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+
+            
+
+          }
+        }
+      }
+    }
+  }
+}
+
+@media #{$iPadAndSmaller} {
+  #app {
+
+    .header-wrapper {
+      .title-wrapper {
+        .logo {
+          svg {
+            width: 210px;
+          }
+
+        }
+
+        .description-wrapper {
+          width: 100%;
+          // height: 40%;
+
+
+          .description {
+            h1 {
+              font-size: 1.6em;
+              margin-bottom: 6px;
+              line-height: 30px;
+            }
+
+            p {
+              font-size: 1em;
+              margin-bottom: 20px;
+            }
+
+            h3 {
+              font-size: 1.2em;
+            }
+
+            button {
+              width: 75px;
+              height: 25px;
+              font-size: 0.6em;
+            }
+          }
+
+        }
+      }
+
+      .nav {
+        .nav-inner {
+          ul.nav-links {
+            a {
+              margin: 0 8px;
+
+            }
+          }
+        }
+      }
+    }
+  }
+
+}
+
+@media (max-width: 659px) {
+  #app {
+
+    .header-wrapper {
+      .title-wrapper {
+        height: 80%;
+        width: 90%;
+        flex-wrap: wrap;
+        .logo {
+          height: 70%;
+          margin-bottom: -4em;
+          svg {
+            width: 80%;
+            display: block;
+            margin: 0 auto;
+          }
+
+        }
+
+        .description-wrapper {
+          font-size: 0.8em;
+          text-align: center;
+          height: 25%;
+
+          .description {
+            padding-left: 0px;
+
+            h1 {
+              line-height: 24px;
+            }
+          }
+
+        }
+      }
+
+      .nav {
+        .nav-inner {
+          width: 90%;
+          ul.nav-links {
+            a {
+              font-size: 0.6em;
+              margin: 0 5px;
+              letter-spacing: 1px;
+
+            }
+          }
+        }
+      }
+    }
+  }
+
+}
