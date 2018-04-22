@@ -5,48 +5,48 @@ import '../scss/SpeakerGrid.scss';
 
 
 const speakers = {
-  'omar': {
-    'name': 'Omar Hamoui',
-    'title': 'Partner @ Sequoia Capital',
-    'logo': './assets/logos/2018/sequoiacapital.jpg',
-    'uri': './assets/headshots/2018/OmarHamoui.jpg',
-    'site': 'https://www.sequoiacap.com/people/omar-hamoui/',
-  },
+  // 'omar': {
+  //   'name': 'Omar Hamoui',
+  //   'title': 'Partner @ Sequoia Capital',
+  //   'logo': './assets/logos/2018/sequoiacapital.jpg',
+  //   'uri': './assets/headshots/2018/OmarHamoui.png',
+  //   'site': 'https://www.sequoiacap.com/people/omar-hamoui/',
+  // },
   'grant': {
     'name': 'Grant Hosford',
     'title': 'Cofounder @ codeSpark',
     'logo': './assets/logos/2018/codespark.jpg',
-    'uri': './assets/headshots/2018/GrantHosford.jpg',
+    'uri': './assets/headshots/2018/GrantHosford.png',
     'site': 'http://www.codespark.org/',
   },
   'harsh': {
     'name': 'Harsh Vathsangam',
     'title': 'CEO @ Moving Analytics',
     'logo': './assets/logos/2018/movinganalytics.jpg',
-    'uri': './assets/headshots/2018/HarshVathsangam.jpg',
+    'uri': './assets/headshots/2018/HarshVathsangam.png',
     'site': 'https://www.movinganalytics.com',
   },
   'sanketh': {
     'name': 'Sanketh Katta',
     'title': 'CTO @ Smartcar',
     'logo': './assets/logos/2018/smartcar.png',
-    'uri': './assets/headshots/2018/SankethKatta.jpg',
+    'uri': './assets/headshots/2018/SankethKatta.png',
     'site': 'https://smartcar.com',
   },
   'alaina': {
     'name': 'Alaina Percival',
     'title': 'CEO @ Women Who Code',
     'logo': './assets/logos/2018/womenwhocode.jpg',
-    'uri': './assets/headshots/2018/AlainaPercival.jpg',
+    'uri': './assets/headshots/2018/AlainaPercival.png',
     'site': 'https://www.womenwhocode.com',
   },
-  'victor': {
-    'name': 'Victor Santos',
-    'title': 'CEO @ Airfox',
-    'logo': './assets/logos/2018/airfox.jpg',
-    'uri': './assets/headshots/2018/VictorSantos.jpg',
-    'site': 'https://airfox.com',
-  },
+  // 'victor': {
+  //   'name': 'Victor Santos',
+  //   'title': 'CEO @ Airfox',
+  //   'logo': './assets/logos/2018/airfox.jpg',
+  //   'uri': './assets/headshots/2018/VictorSantos.png',
+  //   'site': 'https://airfox.com',
+  // },
 };
 
 function createGrid() {
