@@ -14,7 +14,7 @@ export default class Sponsors extends Component {
               <ul>
               <li>
                 <h3>How do I get there?</h3>
-                <p>Directions for getting to Carnesale Commons can be found <a href="http://www.igcmat.com/Carnesale_Commons_Directions.pdf">here.</a></p>
+                <p>Directions for getting to Covel Grand Horizon can be found <a href="http://nownextfuture.aiacc.org/wp-content/uploads/2014/05/UCLA-Map-Covel-Commons-Park-PSV.pdf">here.</a></p>
               </li>
               <li>
                 <h3>What should I bring?</h3>
@@ -30,14 +30,14 @@ export default class Sponsors extends Component {
               </li>
               <li>
                 <h3>I have a question that's not answered here!</h3>
-                <p>Send us an <a href="mailto:uclafoundersschool@gmail.com">email</a> or message us on <a href="https://www.facebook.com/UCLAFoundersSchool/">Facebook</a> and we'd be happy to answer!</p>
+                <p>Send us an <a href="mailto:uclafoundersschool@gmail.com">email</a> or message us on <a href="https://www.facebook.com/events/174175929872806/">Facebook</a> and we'd be happy to answer!</p>
               </li>
-              <li>
+              {/* <li>
                 <h3>I signed up to donate swipes, how does it affect me?</h3>
                 <p>Submission of this form constitutes an e-signature giving your consent for UCLA Dining Services to remove your chosen number of swipes from your meal board plan.</p>
                 <br />
                 <p>If you have a regular meal plan and donate a swipe you will not be able to swipe during the corresponding meal period the day of the event.</p>
-              </li>
+              </li> */}
               </ul>
             </div>
           </div>

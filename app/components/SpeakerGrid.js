@@ -5,62 +5,48 @@ import '../scss/SpeakerGrid.scss';
 
 
 const speakers = {
-  'eugene': {
-    'name': 'Eugene Marinelli',
-    'title': 'Co-Founder and CTO @ Blend',
-    'logo': './assets/logos/2017/bsolid.png',
-    'uri': './assets/headshots/2017/EugeneMarinelli.jpg',
-    'site': 'https://blend.com',
+  // 'omar': {
+  //   'name': 'Omar Hamoui',
+  //   'title': 'Partner @ Sequoia Capital',
+  //   'logo': './assets/logos/2018/sequoiacapital.jpg',
+  //   'uri': './assets/headshots/2018/OmarHamoui.png',
+  //   'site': 'https://www.sequoiacap.com/people/omar-hamoui/',
+  // },
+  'grant': {
+    'name': 'Grant Hosford',
+    'title': 'Cofounder @ codeSpark',
+    'logo': './assets/logos/2018/codespark.jpg',
+    'uri': './assets/headshots/2018/GrantHosford.png',
+    'site': 'http://www.codespark.org/',
   },
-  'angelia': {
-    'name': 'Angelia Trinidad',
-    'title': 'Founder and CEO @ Passion Planner',
-    'logo': './assets/logos/2017/PassionPlanner.png',
-    'uri': './assets/headshots/2017/AngeliaTrinidad.jpg',
-    'site': 'http://www.passionplanner.com/',
+  'harsh': {
+    'name': 'Harsh Vathsangam',
+    'title': 'CEO @ Moving Analytics',
+    'logo': './assets/logos/2018/movinganalytics.jpg',
+    'uri': './assets/headshots/2018/HarshVathsangam.png',
+    'site': 'https://www.movinganalytics.com',
   },
-  'jacob': {
-    'name': 'Jacob Jaber',
-    'title': 'CEO @ Philz Coffee',
-    'logo': './assets/logos/2017/philz.png',
-    'uri': './assets/headshots/2017/JacobJaber.jpg',
-    'site': 'http://www.philzcoffee.com/',
+  'sanketh': {
+    'name': 'Sanketh Katta',
+    'title': 'CTO @ Smartcar',
+    'logo': './assets/logos/2018/smartcar.png',
+    'uri': './assets/headshots/2018/SankethKatta.png',
+    'site': 'https://smartcar.com',
   },
-  'jaclyn': {
-    'name': 'Jaclyn Fu',
-    'title': 'Co-Founder @ Pepper',
-    'logo': './assets/logos/2017/pepperbra.jpg',
-    'uri': './assets/headshots/2017/JaclynFu.jpg',
-    'site': 'https://www.my-pepper.com/',
+  'alaina': {
+    'name': 'Alaina Percival',
+    'title': 'CEO @ Women Who Code',
+    'logo': './assets/logos/2018/womenwhocode.jpg',
+    'uri': './assets/headshots/2018/AlainaPercival.png',
+    'site': 'https://www.womenwhocode.com',
   },
-  'frank': {
-    'name': 'Frank Donner',
-    'title': 'Founder and CEO @ BLKBX Creative Group',
-    'logo': './assets/logos/2017/blkbxsolid.png',
-    'uri': './assets/headshots/2017/FrankDonner.jpg',
-    'site': 'http://blkbxcg.com/',
-  },
-  'cassidy': {
-    'name': 'Cassidy Williams',
-    'title': 'Senior Software Engineer @ L4 Digital',
-    'logo': './assets/logos/2017/l4solid.png',
-    'uri': './assets/headshots/2017/CassidyWilliams.jpg',
-    'site': 'https://l4digital.com',
-  },
-  'lina': {
-    'name': 'Lina Chen',
-    'title': 'Co-Founder and CEO @ Nix Hydra',
-    'logo': './assets/logos/2017/nixhydra.png',
-    'uri': './assets/headshots/2017/LinaChen.jpg',
-    'site': 'http://www.nixhydra.com/',
-  },
-  'bryan': {
-    'name': 'Bryan Ciambella',
-    'title': 'Principal @ B Capital',
-    'logo': './assets/logos/2017/bcapital.png',
-    'uri': './assets/headshots/2017/BryanCiambella.jpeg',
-    'site': 'http://www.bcapgroup.com/',
-  },
+  // 'victor': {
+  //   'name': 'Victor Santos',
+  //   'title': 'CEO @ Airfox',
+  //   'logo': './assets/logos/2018/airfox.jpg',
+  //   'uri': './assets/headshots/2018/VictorSantos.png',
+  //   'site': 'https://airfox.com',
+  // },
 };
 
 function createGrid() {
