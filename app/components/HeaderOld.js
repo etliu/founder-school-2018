@@ -83,7 +83,7 @@ class Logo extends React.Component {
 
     timeline
       .add({
-        targets: 'header.header-wrapper',
+        targets: 'header.header-wrapper-old',
         translateX: [-window.innerWidth, 0],
         opacity: [0, 1],
         easing: 'easeInOutQuad',
@@ -143,7 +143,7 @@ class Logo extends React.Component {
 class HeaderWrapper extends React.Component {
   render() {
     return (
-      <header className="header-wrapper" style={{backgroundImage: 'url(\'./assets/vladspeaking.jpg\')'}}>
+      <header className="header-wrapper-old" style={{backgroundImage: 'url(\'./assets/vladspeaking.jpg\')'}}>
         <Navbar />
         <Title />
       </header>

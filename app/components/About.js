@@ -26,7 +26,7 @@ export default Watch(class About extends Component {
             <div id="where">
               <div id="where-title"><span>Where</span><br /><br /></div>
               <span class="about-location-content">
-                <p>Carnesale Commons</p>
+                <p>Covel Grand Horizon</p>
                 <p>UCLA, Los Angeles, CA</p><br />
               </span>
             </div>
@@ -34,7 +34,7 @@ export default Watch(class About extends Component {
               <div id="when-title"><span>When</span><br /><br /></div>
               <span class="about-location-content">
                 <p>Sunday 9AM - 5PM</p>
-                <p>May 7th, 2017</p><br />
+                <p>May 12th, 2018</p><br />
               </span>
             </div>
           </div>
@@ -42,10 +42,10 @@ export default Watch(class About extends Component {
               <h2>UCLA Founder's School</h2>
               <p>Founder's School is the largest university entrepreneurship conference in Southern California hosted by UCLA ACM and UPE. We are bringing together over 200 students, engineers, founders, investors, professionals, and professors to share their own stories and build meaningful connections.</p>
               <br />
-              <p>Our theme for this year is <span>exploration</span>. We believe in the following:</p>
+              <p>Our theme for this year is <span>impact</span>. We believe in the following:</p>
               <br />
-              <blockquote><i>"It's human nature to stretch, to go, to see, to understand. Exploration is not a choice really; it's an imperative."</i></blockquote>
-              <blockquote id="michaelcollins">- Michael Collins</blockquote>
+              <blockquote><i>"Genius is in the idea. Impact, however, comes from action."</i></blockquote>
+              <blockquote id="simonsinek">- Simon Sinek</blockquote>
           </div>
 
         </div>
