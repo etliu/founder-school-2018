@@ -24,6 +24,7 @@
 }
 
 .schedule-title-description {
+  font-family: 'Work Sans', sans-serif;
   text-align: center;
   padding-bottom: 60px;
   font-size: 25px;
@@ -80,6 +81,7 @@
 }
 
 .timeline-block {
+  font-family: 'Work Sans', sans-serif;
   position: relative;
   width: 9.916%;
   height: 100%;
@@ -107,7 +109,7 @@
   }
 
   &.foodNew {
-    background-color: #EF476F;
+    background-color: #6FBEB6;
   }
 
   &.breakoutNew {
