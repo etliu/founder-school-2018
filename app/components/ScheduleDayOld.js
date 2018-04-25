@@ -33,6 +33,10 @@ let web_styles = {
       marginLeft: "18.75%",
       width: "9.375%",
     },
+    "third_sessions": {
+      marginLeft: "6.25%",
+      width: "9.375%",
+    },
   },
   "closing": <i className="fa fa-gift" title="Closing Statements"></i>,
 }
@@ -95,10 +99,12 @@ export default class ScheduleDayOld extends React.Component {
           <div className="timeline-row">
             <div className="timeline-block breakout" style={active_style["row2"]["first_sessions"]}>Breakout Session #1</div>
             <div className="timeline-block breakout" style={active_style["row2"]["second_sessions"]}>Breakout Session #2</div>
+            <div className="timeline-block breakout" style={active_style["row2"]["third_sessions"]}>Breakout Session #3</div>
           </div>
           <div className="timeline-row">
             <div className="timeline-block breakout" style={active_style["row2"]["first_sessions"]}>Breakout Session #1</div>
             <div className="timeline-block breakout" style={active_style["row2"]["second_sessions"]}>Breakout Session #2</div>
+            <div className="timeline-block breakout" style={active_style["row2"]["third_sessions"]}>Breakout Session #3</div>
           </div>
         </div>
       </div>

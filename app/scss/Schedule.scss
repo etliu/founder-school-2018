@@ -102,6 +102,18 @@
     background-color: $blue;
   }
 
+  &.talkNew {
+    background-color: #309cab;
+  }
+
+  &.foodNew {
+    background-color: #EF476F;
+  }
+
+  &.breakoutNew {
+    background-color: #393E41;
+  }
+
   &p {
     display: inline-block;
     vertical-align: middle;
