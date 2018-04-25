@@ -1,5 +1,5 @@
 {
-  "name": "founders-school",
+  "name": "ls",
   "version": "1.0.0",
   "description": "\"\"",
   "main": "index.js",
@@ -38,5 +38,12 @@
     "url-loader": "^0.5.7",
     "webpack": "^2.2.1",
     "webpack-dev-server": "^2.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/etliu/founders-school.git"
+  },
+  "bugs": {
+    "url": "https://github.com/etliu/founders-school/issues"
   }
 }
