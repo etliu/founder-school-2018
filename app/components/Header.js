@@ -19,6 +19,7 @@ class Navbar extends React.Component {
             <li><Scrollchor to="#schedule" animate={animeStyle}>Schedule</Scrollchor></li>
             <li><Scrollchor to="#faq" animate={animeStyle}>Faq</Scrollchor></li>
             <li><Scrollchor to="#sponsors" animate={animeStyle}>Sponsors</Scrollchor></li>
+            <li><span className="apply"><a href="https://uclafoundersschool.typeform.com/to/EtFeaq">Apply</a></span></li>
           </ul>
 
         </div>
@@ -131,7 +132,7 @@ class HeaderWrapper extends React.Component {
 }
 
 function handleApply() {
-  window.location.href = "https://uclafoundersschool.typeform.com/to/G7VxEU";
+  window.location.href = "https://uclafoundersschool.typeform.com/to/EtFeaq";
 }
 
 function handleSponsor() {
@@ -185,10 +186,7 @@ class Description extends React.Component {
           <h1 className="anime-group">UCLA, 5.12.18</h1>
           <h1 className="anime-group">Tech Meets Entrepreneurship</h1>
           <p className="anime-group">SoCal’s Largest University Entrepreneurship Conference</p>
-          <form autoComplete="off" className="anime-group" id="mailinglist" onSubmit={this.handleSubmitEmail}>
-            <input type="text" name="emailfield" id="emailfield" placeholder="Join our mailing list"/>
-            <button>Submit</button>
-          </form>
+          <button className="anime-group" onClick={handleApply}>Apply</button>
         </div>
       </div>
     )
