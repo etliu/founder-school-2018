@@ -13,7 +13,7 @@ export default class Footer extends React.Component {
         <div className="container">
           <div className="left">
             <div className="logo">
-              <img src="./assets/logo.svg" alt=""/>
+              <img src="./assets/Logo.png" alt=""/>
             </div>
             <div className="hosts">
               Hosted by

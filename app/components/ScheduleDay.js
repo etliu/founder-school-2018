@@ -45,6 +45,10 @@ let web_styles = {
       marginLeft: "15.625%",
       width: "9.375%",
     },
+    "third_sessions": {
+      marginLeft: "3.125%",
+      width: "9.375%",
+    },
   },
   "closing": <i className="fa fa-gift" title="Closing Statements"></i>,
 }
@@ -92,6 +96,10 @@ let mobile_styles = {
       marginTop: "65px",
       height: "41px",
     },
+    "third_sessions": {
+      marginTop: "13px",
+      height: "41px",
+    },
   },
   "closing": "Closing",
 }
@@ -107,19 +115,20 @@ export default class ScheduleDay extends React.Component {
       <div className="schedule-day">
         <div className="timeline-table">
           <div className="timeline-row">
-            <div className="timeline-block food" style={active_style["row1"]["45"]}>Check-In</div>
-            <div className="timeline-block talk" style={active_style["row1"]["15"]}>Opening</div>
-            <div className="timeline-block breakout" style={active_style["row1"]["60+10gap"]}>Keynote #1</div>
-            <div className="timeline-block food" style={active_style["row1"]["45+5gap"]}>Breakout Session #1</div>
-            <div className="timeline-block breakout" style={active_style["row1"]["60+10gap"]}>Lunch / Networking</div>
-            <div className="timeline-block food" style={active_style["row1"]["45+15gap"]}>Breakout Session #2</div>
-            <div className="timeline-block talk" style={active_style["row1"]["45+5gap"]}>Breakout Session #3</div>
-            <div className="timeline-block talk" style={active_style["row1"]["60"]}>Keynote #2</div>
-            <div className="timeline-block food" style={active_style["row1"]["30"]}>{active_style["closing"]}</div>
+            <div className="timeline-block foodNew" style={active_style["row1"]["45"]}>Check-In</div>
+            <div className="timeline-block talkNew" style={active_style["row1"]["15"]}>Opening</div>
+            <div className="timeline-block talkNew" style={active_style["row1"]["60+10gap"]}>Keynote #1</div>
+            <div className="timeline-block breakoutNew" style={active_style["row1"]["45+5gap"]}>Breakout Session #1</div>
+            <div className="timeline-block foodNew" style={active_style["row1"]["60+10gap"]}>Lunch / Networking</div>
+            <div className="timeline-block breakoutNew" style={active_style["row1"]["45+15gap"]}>Breakout Session #2</div>
+            <div className="timeline-block breakoutNew" style={active_style["row1"]["45+5gap"]}>Breakout Session #3</div>
+            <div className="timeline-block talkNew" style={active_style["row1"]["60"]}>Keynote #2</div>
+            <div className="timeline-block foodNew" style={active_style["row1"]["30"]}>{active_style["closing"]}</div>
           </div>
           <div className="timeline-row">
-            <div className="timeline-block breakout" style={active_style["row2"]["first_sessions"]}>Breakout Session #1</div>
-            <div className="timeline-block breakout" style={active_style["row2"]["second_sessions"]}>Breakout Session #2</div>
+            <div className="timeline-block breakoutNew" style={active_style["row2"]["first_sessions"]}>Breakout Session #1</div>
+            <div className="timeline-block breakoutNew" style={active_style["row2"]["second_sessions"]}>Breakout Session #2</div>
+            <div className="timeline-block breakoutNew" style={active_style["row2"]["third_sessions"]}>Breakout Session #3</div>
           </div>
         </div>
       </div>

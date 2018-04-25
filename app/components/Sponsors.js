@@ -9,15 +9,13 @@ export default class Sponsors extends Component {
         <div className="containers">
           <div className="header-title">Sponsors</div>
           <div className="section">
-            <div className="sponsors-grid">
-              <div className="sponsor-tile"><a href="http://startupucla.com/"><img src="./assets/sponsors/startupucla.jpg"/></a></div>
-              <div className="sponsor-tile"><a href="https://www.blackstonelaunchpad.org/"><img src="./assets/sponsors/blackstone.png"/></a></div>
-              <div className="sponsor-tile" id="reslife"><a href="https://reslife.ucla.edu/"><img src="./assets/sponsors/reslife.png"/></a></div>
-            </div>
             <div className="sponsors-grid lower">
-              <div className="sponsor-tile" id="ucla-edi"><a href="https://equity.ucla.edu/"><img src="./assets/sponsors/uclaEDI.png"/></a></div>
+              <div className="sponsor-tile" id="reslife"><a href="https://reslife.ucla.edu/"><img src="./assets/sponsors/reslife.png"/></a></div>
               <div className="sponsor-tile"><a href="http://www.uclaacm.com/#/"><img src="./assets/sponsors/acm.png"/></a></div>
               <div className="sponsor-tile"><a href="https://upe.seas.ucla.edu/"><img src="./assets/sponsors/upe.png"/></a></div>
+            </div>
+            <div className="sponsors-grid">
+              <div className="sponsor-tile" id="anderson"><a href="https://www.anderson.ucla.edu/"><img src="./assets/sponsors/anderson.png"/></a></div>
             </div>
           </div>
         </div>

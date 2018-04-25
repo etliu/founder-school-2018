@@ -1,7 +1,7 @@
 @import "common";
 
 $text: #efefef;
-$accent: #002c4e;
+$accent: #3E3E4B;
 
 footer.footer {
   background: $accent;
@@ -65,7 +65,7 @@ footer.footer {
         a {
           text-decoration: none;
           color: $accent;
-          background: yellow;
+          background: #ffea3d;
           padding: 0 3px;
         }
       }
@@ -135,7 +135,7 @@ footer.footer {
           }
 
           span.apply {
-            background: yellow;
+            background: #ffea3d;
             padding: 2px 4px;
 
             a {
