@@ -90,6 +90,25 @@
             margin-bottom: 15px;
           }
 
+          button {
+            border: 1px solid black;
+            background: black;
+            width: 125px;
+            height: 40px;
+            font-size: 1.1em;
+            text-transform: uppercase;
+            font-weight: 500;
+            color: white;
+            padding: 7px 15px;
+            margin-right: 10px;
+            @include prefix(transition, all 350ms ease-in-out);
+            &:hover {
+            cursor: pointer;
+            background: none;
+           color: $blue;
+            }
+          }
+
           form {
             margin: 0 auto;
             margin-bottom: 25px;
