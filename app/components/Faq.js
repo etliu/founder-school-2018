@@ -26,7 +26,7 @@ export default class Sponsors extends Component {
               </li>
               <li>
                 <h3>How do I get invited?</h3>
-                <p>Apply to the event using the apply button at the top of this page or through <a href="https://uclafoundersschool.typeform.com/to/G7VxEU">this Typeform link!</a></p>
+                <p>Apply to the event using the apply button at the top of this page or through <a href="https://uclafoundersschool.typeform.com/to/EtFeaq">this Typeform link!</a></p>
               </li>
               <li>
                 <h3>I have a question that's not answered here!</h3>
