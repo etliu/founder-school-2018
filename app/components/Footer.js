@@ -34,7 +34,7 @@ export default class Footer extends React.Component {
               <li><Scrollchor to="#schedule" animate={animeStyle}>Schedule</Scrollchor></li>
               <li><Scrollchor to="#faq" animate={animeStyle}>Faq</Scrollchor></li>
               <li><Scrollchor to="#sponsors" animate={animeStyle}>Sponsors</Scrollchor></li>
-              <li><span className="apply"><a href="https://uclafoundersschool.typeform.com/to/G7VxEU">Apply</a></span></li>
+              <li><span className="apply"><a href="https://uclafoundersschool.typeform.com/to/EtFeaq">Apply</a></span></li>
             </ul>
 
           </div>
