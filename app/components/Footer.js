@@ -41,7 +41,7 @@ export default class Footer extends React.Component {
         </div>
         <div className="container">
           <div className="copyright">
-            &copy; Copyright 2017 | Made with <span className="heart">♥</span> in Los Angeles
+            &copy; Copyright 2018 | Made with <span className="heart">♥</span> in Los Angeles
           </div>
         </div>
 
