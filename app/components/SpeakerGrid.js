@@ -5,13 +5,13 @@ import '../scss/SpeakerGrid.scss';
 
 
 const speakers = {
-  // 'omar': {
-  //   'name': 'Omar Hamoui',
-  //   'title': 'Partner @ Sequoia Capital',
-  //   'logo': './assets/logos/2018/sequoiacapital.jpg',
-  //   'uri': './assets/headshots/2018/OmarHamoui.png',
-  //   'site': 'https://www.sequoiacap.com/people/omar-hamoui/',
-  // },
+   'omar': {
+     'name': 'Omar Hamoui',
+     'title': 'Partner @ Sequoia Capital',
+     'logo': './assets/logos/2018/sequoiacapital.jpg',
+     'uri': './assets/headshots/2018/OmarHamoui.jpg',
+     'site': 'https://www.sequoiacap.com/people/omar-hamoui/',
+   },
   'grant': {
     'name': 'Grant Hosford',
     'title': 'Cofounder @ codeSpark',
@@ -40,6 +40,21 @@ const speakers = {
     'uri': './assets/headshots/2018/AlainaPercival.jpg',
     'site': 'https://www.womenwhocode.com',
   },
+  'susie': {
+    'name': 'Susie Kim',
+    'title': 'CEO @ Pluto Money',
+    'logo': './assets/logos/2018/pluto_money.png',
+    'uri': './assets/headshots/2018/SusieKim.jpg',
+    'site': 'https://gopluto.io/',
+  },
+  'alex': {
+    'name': 'Alex Capecelatro',
+    'title': 'CEO @ Josh.ai',
+    'logo': './assets/logos/2018/josh_ai.jpg',
+    'uri': './assets/headshots/2018/AlexCapecelatro.png',
+    'site': 'https://www.josh.ai/',
+  },
+
   // 'victor': {
   //   'name': 'Victor Santos',
   //   'title': 'CEO @ Airfox',
