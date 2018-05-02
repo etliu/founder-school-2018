@@ -42,7 +42,7 @@ const speakers = {
   },
   'susie': {
     'name': 'Susie Kim',
-    'title': 'CEO @ Pluto Money',
+    'title': 'CCO @ Pluto Money',
     'logo': './assets/logos/2018/pluto_money.png',
     'uri': './assets/headshots/2018/SusieKim.jpg',
     'site': 'https://gopluto.io/',
