@@ -9,7 +9,7 @@ const speakers = {
      'name': 'Omar Hamoui',
      'title': 'Partner @ Sequoia Capital',
      'logo': './assets/logos/2018/sequoiacapital.jpg',
-     'uri': './assets/headshots/2018/OmarHamoui.jpg',
+     'uri': './assets/headshots/2018/omar_full.png',
      'site': 'https://www.sequoiacap.com/people/omar-hamoui/',
    },
   'grant': {
@@ -44,7 +44,7 @@ const speakers = {
     'name': 'Susie Kim',
     'title': 'CCO @ Pluto Money',
     'logo': './assets/logos/2018/pluto_money.png',
-    'uri': './assets/headshots/2018/SusieKim.jpg',
+    'uri': './assets/headshots/2018/susie_full.png',
     'site': 'https://gopluto.io/',
   },
   'alex': {
@@ -53,6 +53,13 @@ const speakers = {
     'logo': './assets/logos/2018/josh_ai.jpg',
     'uri': './assets/headshots/2018/AlexCapecelatro.png',
     'site': 'https://www.josh.ai/',
+  },
+  'ann': {
+    'name': 'Ann Wang',
+    'title': 'CEO @ Enrou',
+    'logo': './assets/logos/2018/enrou.jpg',
+    'uri': './assets/headshots/2018/ann_full.png',
+    'site': 'https://enrou.co/',
   },
 
   // 'victor': {
