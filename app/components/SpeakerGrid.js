@@ -56,14 +56,14 @@ const speakers = {
   },
   'ann': {
     'name': 'Ann Wang',
-    'title': 'CEO & Co-Founder @ Enrou',
+    'title': 'CEO @ Enrou',
     'logo': './assets/logos/2018/enrou.jpg',
     'uri': './assets/headshots/2018/ann_full.png',
     'site': 'https://enrou.co/',
   },
   'jessica': {
-    'name': 'Jessica Willson',
-    'title': 'Co-Founder @ Enrou',
+    'name': 'Jessica Willison',
+    'title': 'CCO @ Enrou',
     'logo': './assets/logos/2018/enrou.jpg',
     'uri': './assets/headshots/2018/jessica_full.png',
     'site': 'https://enrou.co/',
