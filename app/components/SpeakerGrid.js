@@ -56,19 +56,18 @@ const speakers = {
   },
   'ann': {
     'name': 'Ann Wang',
-    'title': 'CEO @ Enrou',
+    'title': 'CEO & Co-Founder @ Enrou',
     'logo': './assets/logos/2018/enrou.jpg',
     'uri': './assets/headshots/2018/ann_full.png',
     'site': 'https://enrou.co/',
   },
-
-  // 'victor': {
-  //   'name': 'Victor Santos',
-  //   'title': 'CEO @ Airfox',
-  //   'logo': './assets/logos/2018/airfox.jpg',
-  //   'uri': './assets/headshots/2018/VictorSantos.png',
-  //   'site': 'https://airfox.com',
-  // },
+  'jessica': {
+    'name': 'Jessica Willson',
+    'title': 'Co-Founder @ Enrou',
+    'logo': './assets/logos/2018/enrou.jpg',
+    'uri': './assets/headshots/2018/jessica_full.png',
+    'site': 'https://enrou.co/',
+  },
 };
 
 function createGrid() {
